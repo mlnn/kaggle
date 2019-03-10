@@ -1,3 +1,7 @@
+#mount google
+from google.colab import drive
+drive.mount('/content/drive')
+
 #Runtime->Change runtime type->GPU or TPU
 #check it
 import tensorflow as tf
